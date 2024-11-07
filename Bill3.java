@@ -13,7 +13,7 @@ public class Bill3 {
 
 		double priceOfOne = Math.ceil(price/people);
 		System.out.print("Dear "+nemaC+", "+nemaB+", and "+nemaA+":");
-		System.out.print("pay "+priceOfOne+" Shekels each");
+		System.out.print(" pay "+priceOfOne+" Shekels each");
 	  
 	}
 }
