@@ -2,7 +2,7 @@
 public class FVCalc {
 	public static void main(String[] args){
 		// Replace this comment with your code
-			int currentValue = Integer.parseInt (args[0]);
+		double currentValue = Double.parseDouble (args[0]);
 		int rate = Integer.parseInt (args[1]);
 		int n = Integer.parseInt (args[2]);
 
