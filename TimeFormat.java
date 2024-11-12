@@ -12,7 +12,7 @@ public class TimeFormat {
                 hours -= 12;
             }
         } else if (hours == 0) {
-            hours = 12;
+            hours = 0;
         }
 
         String formattedHours = Integer.toString(hours);
