@@ -4,7 +4,7 @@ public class FVCalc {
 		// Replace this comment with your code
 		double currentValue = Double.parseDouble (args[0]);
 		double rate = Double.parseDouble (args[1]);
-		double n = Double.parseDouble (args[2]);
+		int n = Integer.parsInt (args[2]);
 
 
 		double futureValueDouble = currentValue*(Math.pow(1+(rate/100.0),n)) ;
